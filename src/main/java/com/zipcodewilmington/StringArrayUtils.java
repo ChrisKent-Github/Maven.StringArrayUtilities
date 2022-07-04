@@ -214,6 +214,16 @@ public class StringArrayUtils {
      * @return array of Strings with each consecutive duplicate occurrence concatenated as a single string in an array of Strings
      */ // TODO
     public static String[] packConsecutiveDuplicates(String[] array) {
+//        List<String> aToAl = new ArrayList<String>();
+//        Collections.addAll(aToAl, array);
+//        List<String> newAToAl = new ArrayList<String>();
+//        for(int i = 0; i < array.length - 1; i++){
+//            if (aToAl.get(i) == aToAl.get(i + 1)){
+//                newAToAl.get() = newAToAl.stream().collect(Collectors.joining(""));
+//            }
+//        }
+//        return null;
+//    }
         ArrayList<String> arrayLst = new ArrayList<>();
         String result = "";
 
